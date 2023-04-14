@@ -2,23 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Laço Faça Enquanto</title>
+        <title>Evento Clique</title>
     
         <!--JS-->
         <script>
-            var indice = 1;
-
-            do
+            function mensagem()
             {
-                alert(indice);
-                indice++;
+                alert("Você clicou no botão")
             }
-            while(indice <= 3);
-            
         </script>
 
     </head>
     <body>
-
+        <button onclick="mensagem()">Clique Aqui</button>
     </body>
 </html>
