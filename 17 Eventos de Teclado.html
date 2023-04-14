@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Estrutura Base</title>
+    
+        <!--JS-->
+        <script>
+            /*
+            onKeyUp: Exibe o caractere e depois executa a operação.
+            onKeyDown: Executa a ação e depois exibe o caractere.
+            onKeyPress: Executa a ação e depois exibe o caractere. Não suporta as teclas F1-F12, ALT, CTRL, SHIFT, etc.
+            */
+           function exibir()
+           {
+                var campo = document.getElementById("campo").value;
+                alert(campo);
+           }
+        </script>
+
+    </head>
+    <body>
+        <input type="text" id="campo" onkeyup="exibir()">
+    </body>
+</html>
